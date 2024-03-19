@@ -1,3 +1,6 @@
-#!/bin/script
+#!/bin/bash
 
-echo "hello"
+hello() {
+  echo "hello"
+}
+
