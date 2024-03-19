@@ -12,6 +12,10 @@ hello() {
   echo "hello $1"
 }
 
-hello $1
-cat
-dog
+if [ "$1" == "dog" ]; then
+  dog
+elif [ "$1" == "cat" ]; then
+  cat
+else
+  hello $1
+fi
