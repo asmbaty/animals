@@ -4,3 +4,4 @@ hello() {
   echo "hello"
 }
 
+hello
