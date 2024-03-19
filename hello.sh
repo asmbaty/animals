@@ -9,7 +9,7 @@ dog() {
 }
 
 hello() {
-  echo "hello"
+  echo "hello man"
 }
 
 if [ "$1" == "dog" ]; then
