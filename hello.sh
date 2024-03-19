@@ -8,8 +8,8 @@ dog() {
   echo "I am a dog"
 }
 
-bear() {
-  echo "I am a bear"
+polar_bear() {
+  echo "I am a polar bear"
 }
 
 hello() {
@@ -21,7 +21,7 @@ if [ "$1" == "dog" ]; then
 elif [ "$1" == "cat" ]; then
   cat
 elif [ "$1" == "bear" ]; then
-  bear
+  polar_bear
 else
   hello $1
 fi
