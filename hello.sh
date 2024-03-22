@@ -19,3 +19,7 @@ elif [ "$1" == "cat" ]; then
 else
   hello $1
 fi
+
+echo "Some logs" >> log.txt
+
+echo "This is the bear branch"
