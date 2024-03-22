@@ -24,4 +24,4 @@ fi
 
 echo "Some logs" >> log.txt
 
-echo "This is the bear branch"
+echo "This is the feature branch"
