@@ -25,3 +25,5 @@ fi
 echo "Some logs" >> log.txt
 
 echo "This is the feature branch"
+echo "some changes"
+
