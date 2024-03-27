@@ -8,6 +8,10 @@ dog() {
   echo "I am a dog"
 }
 
+monkey() {
+	echo "I am a monkey"
+}
+
 hello() {
   echo "hello man"
 }
@@ -16,8 +20,11 @@ if [ "$1" == "dog" ]; then
   dog
 elif [ "$1" == "cat" ]; then
   cat
+elif [ "$1" == "monkey" ]; then
+  monkey
 elif [ "$1" == "hello" ]; then
   echo "just say hello"
+
 else
   hello $1
 fi
